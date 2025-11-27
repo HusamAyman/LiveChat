@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "bjRpX1xEQnc=",
+  "success": true,
+  "projectFilePath": "/home/viper/Development/Live Chat/back-end/LiveChat.WebAPI/LiveChat.Domain/LiveChat.Domain.csproj",
+  "expectedPackageFiles": [
+    "/home/viper/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.20/microsoft.aspnetcore.app.ref.8.0.20.nupkg.sha512"
+  ],
+  "logs": []
+}
