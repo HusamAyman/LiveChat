@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "ArXRZJjzbBZ65gm2Tmzcggmw5Nu5QpSw2ZTeycPvCvI=",
+  "Source": "LiveChat.WebAPI",
+  "BasePath": "_content/LiveChat.WebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,16 @@
+/home/viper/Development/Live Chat/back-end/LiveChat.WebAPI/LiveChat.Application/bin/Debug/net8.0/LiveChat.Application.deps.json
+/home/viper/Development/Live Chat/back-end/LiveChat.WebAPI/LiveChat.Application/bin/Debug/net8.0/LiveChat.Application.dll
+/home/viper/Development/Live Chat/back-end/LiveChat.WebAPI/LiveChat.Application/bin/Debug/net8.0/LiveChat.Application.pdb
+/home/viper/Development/Live Chat/back-end/LiveChat.WebAPI/LiveChat.Application/bin/Debug/net8.0/LiveChat.Domain.dll
+/home/viper/Development/Live Chat/back-end/LiveChat.WebAPI/LiveChat.Application/bin/Debug/net8.0/LiveChat.Domain.pdb
+/home/viper/Development/Live Chat/back-end/LiveChat.WebAPI/LiveChat.Application/obj/Debug/net8.0/LiveChat.Application.csproj.AssemblyReference.cache
+/home/viper/Development/Live Chat/back-end/LiveChat.WebAPI/LiveChat.Application/obj/Debug/net8.0/LiveChat.Application.GeneratedMSBuildEditorConfig.editorconfig
+/home/viper/Development/Live Chat/back-end/LiveChat.WebAPI/LiveChat.Application/obj/Debug/net8.0/LiveChat.Application.AssemblyInfoInputs.cache
+/home/viper/Development/Live Chat/back-end/LiveChat.WebAPI/LiveChat.Application/obj/Debug/net8.0/LiveChat.Application.AssemblyInfo.cs
+/home/viper/Development/Live Chat/back-end/LiveChat.WebAPI/LiveChat.Application/obj/Debug/net8.0/LiveChat.Application.csproj.CoreCompileInputs.cache
+/home/viper/Development/Live Chat/back-end/LiveChat.WebAPI/LiveChat.Application/obj/Debug/net8.0/LiveChat.Application.sourcelink.json
+/home/viper/Development/Live Chat/back-end/LiveChat.WebAPI/LiveChat.Application/obj/Debug/net8.0/LiveChat.B4A820FA.Up2Date
+/home/viper/Development/Live Chat/back-end/LiveChat.WebAPI/LiveChat.Application/obj/Debug/net8.0/LiveChat.Application.dll
+/home/viper/Development/Live Chat/back-end/LiveChat.WebAPI/LiveChat.Application/obj/Debug/net8.0/refint/LiveChat.Application.dll
+/home/viper/Development/Live Chat/back-end/LiveChat.WebAPI/LiveChat.Application/obj/Debug/net8.0/LiveChat.Application.pdb
+/home/viper/Development/Live Chat/back-end/LiveChat.WebAPI/LiveChat.Application/obj/Debug/net8.0/ref/LiveChat.Application.dll

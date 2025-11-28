@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "LiveChat.Domain/1.0.0": {
+        "runtime": {
+          "LiveChat.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LiveChat.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,12 @@
+/home/viper/Development/Live Chat/back-end/LiveChat.WebAPI/LiveChat.Domain/bin/Debug/net8.0/LiveChat.Domain.deps.json
+/home/viper/Development/Live Chat/back-end/LiveChat.WebAPI/LiveChat.Domain/bin/Debug/net8.0/LiveChat.Domain.dll
+/home/viper/Development/Live Chat/back-end/LiveChat.WebAPI/LiveChat.Domain/bin/Debug/net8.0/LiveChat.Domain.pdb
+/home/viper/Development/Live Chat/back-end/LiveChat.WebAPI/LiveChat.Domain/obj/Debug/net8.0/LiveChat.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/viper/Development/Live Chat/back-end/LiveChat.WebAPI/LiveChat.Domain/obj/Debug/net8.0/LiveChat.Domain.AssemblyInfoInputs.cache
+/home/viper/Development/Live Chat/back-end/LiveChat.WebAPI/LiveChat.Domain/obj/Debug/net8.0/LiveChat.Domain.AssemblyInfo.cs
+/home/viper/Development/Live Chat/back-end/LiveChat.WebAPI/LiveChat.Domain/obj/Debug/net8.0/LiveChat.Domain.csproj.CoreCompileInputs.cache
+/home/viper/Development/Live Chat/back-end/LiveChat.WebAPI/LiveChat.Domain/obj/Debug/net8.0/LiveChat.Domain.sourcelink.json
+/home/viper/Development/Live Chat/back-end/LiveChat.WebAPI/LiveChat.Domain/obj/Debug/net8.0/LiveChat.Domain.dll
+/home/viper/Development/Live Chat/back-end/LiveChat.WebAPI/LiveChat.Domain/obj/Debug/net8.0/refint/LiveChat.Domain.dll
+/home/viper/Development/Live Chat/back-end/LiveChat.WebAPI/LiveChat.Domain/obj/Debug/net8.0/LiveChat.Domain.pdb
+/home/viper/Development/Live Chat/back-end/LiveChat.WebAPI/LiveChat.Domain/obj/Debug/net8.0/ref/LiveChat.Domain.dll
