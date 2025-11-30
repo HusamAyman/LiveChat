@@ -48,7 +48,6 @@
 /home/viper/Development/Live Chat/back-end/LiveChat.WebAPI/LiveChat.WebAPI/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.LiveChat.WebAPI.props
 /home/viper/Development/Live Chat/back-end/LiveChat.WebAPI/LiveChat.WebAPI/obj/Debug/net8.0/staticwebassets.pack.json
 /home/viper/Development/Live Chat/back-end/LiveChat.WebAPI/LiveChat.WebAPI/obj/Debug/net8.0/scopedcss/bundle/LiveChat.WebAPI.styles.css
-/home/viper/Development/Live Chat/back-end/LiveChat.WebAPI/LiveChat.WebAPI/obj/Debug/net8.0/LiveChat.55CD26F1.Up2Date
 /home/viper/Development/Live Chat/back-end/LiveChat.WebAPI/LiveChat.WebAPI/obj/Debug/net8.0/LiveChat.WebAPI.dll
 /home/viper/Development/Live Chat/back-end/LiveChat.WebAPI/LiveChat.WebAPI/obj/Debug/net8.0/refint/LiveChat.WebAPI.dll
 /home/viper/Development/Live Chat/back-end/LiveChat.WebAPI/LiveChat.WebAPI/obj/Debug/net8.0/LiveChat.WebAPI.pdb
@@ -134,3 +133,4 @@
 /home/viper/Development/Live Chat/back-end/LiveChat.WebAPI/LiveChat.WebAPI/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 /home/viper/Development/Live Chat/back-end/LiveChat.WebAPI/LiveChat.WebAPI/bin/Debug/net8.0/Microsoft.IdentityModel.Tokens.dll
 /home/viper/Development/Live Chat/back-end/LiveChat.WebAPI/LiveChat.WebAPI/bin/Debug/net8.0/System.IdentityModel.Tokens.Jwt.dll
+/home/viper/Development/Live Chat/back-end/LiveChat.WebAPI/LiveChat.WebAPI/obj/Debug/net8.0/LiveChat.55CD26F1.Up2Date

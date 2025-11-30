@@ -12,9 +12,11 @@
 /home/viper/Development/Live Chat/back-end/LiveChat.WebAPI/LiveChat.Infrastructure/obj/Debug/net8.0/LiveChat.Infrastructure.AssemblyInfo.cs
 /home/viper/Development/Live Chat/back-end/LiveChat.WebAPI/LiveChat.Infrastructure/obj/Debug/net8.0/LiveChat.Infrastructure.csproj.CoreCompileInputs.cache
 /home/viper/Development/Live Chat/back-end/LiveChat.WebAPI/LiveChat.Infrastructure/obj/Debug/net8.0/LiveChat.Infrastructure.sourcelink.json
-/home/viper/Development/Live Chat/back-end/LiveChat.WebAPI/LiveChat.Infrastructure/obj/Debug/net8.0/LiveChat.950620E3.Up2Date
 /home/viper/Development/Live Chat/back-end/LiveChat.WebAPI/LiveChat.Infrastructure/obj/Debug/net8.0/LiveChat.Infrastructure.dll
 /home/viper/Development/Live Chat/back-end/LiveChat.WebAPI/LiveChat.Infrastructure/obj/Debug/net8.0/refint/LiveChat.Infrastructure.dll
 /home/viper/Development/Live Chat/back-end/LiveChat.WebAPI/LiveChat.Infrastructure/obj/Debug/net8.0/LiveChat.Infrastructure.pdb
 /home/viper/Development/Live Chat/back-end/LiveChat.WebAPI/LiveChat.Infrastructure/obj/Debug/net8.0/LiveChat.Infrastructure.genruntimeconfig.cache
 /home/viper/Development/Live Chat/back-end/LiveChat.WebAPI/LiveChat.Infrastructure/obj/Debug/net8.0/ref/LiveChat.Infrastructure.dll
+/home/viper/Development/Live Chat/back-end/LiveChat.WebAPI/LiveChat.Infrastructure/bin/Debug/net8.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/home/viper/Development/Live Chat/back-end/LiveChat.WebAPI/LiveChat.Infrastructure/bin/Debug/net8.0/Microsoft.AspNetCore.Authentication.JwtBearer.xml
+/home/viper/Development/Live Chat/back-end/LiveChat.WebAPI/LiveChat.Infrastructure/obj/Debug/net8.0/LiveChat.950620E3.Up2Date

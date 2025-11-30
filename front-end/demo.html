@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>LiveChat Demo</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/8.0.0/signalr.min.js"></script>
+</head>
+<body>
+
+<h2>Login</h2>
+<div>
+    <input id="email" placeholder="Email" />
+    <br /><br />
+    <input id="password" type="password" placeholder="Password" />
+    <br /><br />
+    <button onclick="login()">Login</button>
+</div>
+
+<hr>
+
+<h2>Private Chat</h2>
+
+<div>
+    <label>Your Token:</label><br>
+    <textarea id="token" rows="3" cols="60" readonly></textarea>
+</div>
+
+<br>
+
+<div>
+    <label>Receiver ID:</label><br>
+    <input id="receiverId" style="width:300px;" placeholder="Enter user ID to chat with" />
+</div>
+
+<br>
+
+<div>
+    <label>Message:</label><br>
+    <input id="messageText" style="width:300px;" placeholder="Type your message" />
+</div>
+
+<br>
+
+<button onclick="sendMessage()">Send Message</button>
+
+<hr>
+
+<h2>Messages</h2>
+<div id="messages" style="white-space: pre-line; border:1px solid #aaa; padding:10px; width:400px; height:200px; overflow-y:scroll;"></div>
+
+<script>
+
+    const LOGIN_URL = "http://localhost:5028/Account/Login";
+    const HUB_URL   = "http://localhost:5028/hubs/chat";
+
+    let token = null;
+    let connection = null;
+
+    async function login() {
+        const email = document.getElementById("email").value;
+        const password = document.getElementById("password").value;
+
+        console.log("Logging in to:", LOGIN_URL);
+
+        const formData = new FormData();
+        formData.append("Email", email);
+        formData.append("Password", password);
+
+        try {
+            const response = await fetch(LOGIN_URL, {
+                method: "POST",
+                body: formData
+            });
+
+            const data = await response.json();
+            console.log("Login response:", data);
+
+            // AUTH RESULT FORMAT:
+            // { isSucceeded: bool, token: string, expiresAt: date, errors: [] }
+            if (!data.isSucceeded) {
+                alert("Login failed: " + (data.errors?.join(", ") || "Unknown error"));
+                return;
+            }
+
+            token = data.token;
+            document.getElementById("token").value = token;
+
+            await connectToHub();
+
+        } catch (err) {
+            console.error("Login error:", err);
+            alert("Login error: " + err);
+        }
+    }
+
+    async function connectToHub() {
+        console.log("Connecting to hub:", `${HUB_URL}?access_token=${token}`);
+
+        connection = new signalR.HubConnectionBuilder()
+            .withUrl(`${HUB_URL}?access_token=${token}`)
+            .configureLogging(signalR.LogLevel.Information)
+            .build();
+
+        connection.on("ReceivePrivateMessage", (msg) => {
+            addMessage("[Received] " + msg.message);
+        });
+
+        try {
+            await connection.start();
+            console.log("Connected to SignalR!");
+            addMessage("[Connected to chat hub]");
+        } catch (err) {
+            console.error("Connection error:", err);
+            addMessage("[Error connecting to hub]");
+        }
+    }
+
+    async function sendMessage() {
+        const receiverId = document.getElementById("receiverId").value;
+        const message = document.getElementById("messageText").value;
+
+        if (!connection || connection.state !== "Connected") {
+            alert("Not connected to hub");
+            return;
+        }
+
+        const payload = {
+            receiverId: receiverId,
+            message: message
+        };
+
+        try {
+            await connection.invoke("SendPrivateMessage", payload);
+            addMessage("[Sent] " + message);
+        } catch (err) {
+            console.error("Send error:", err);
+            addMessage("[Error sending message]");
+        }
+    }
+
+    function addMessage(msg) {
+        const messagesDiv = document.getElementById("messages");
+        messagesDiv.textContent += msg + "\n";
+        messagesDiv.scrollTop = messagesDiv.scrollHeight;
+    }
+
+</script>
+
+</body>
+</html>
